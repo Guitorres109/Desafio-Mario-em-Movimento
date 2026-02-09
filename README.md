@@ -1,6 +1,10 @@
 # 🎯 Objetivo
 
+---
+
 ## Criar uma animação em CSS onde o personagem Mario se movimenta da esquerda para a direita e depois volta, de forma suave e contínua, permanecendo sempre visível na tela.
+
+---
 
 ### Regras do desafio
 !Utilize CSS
