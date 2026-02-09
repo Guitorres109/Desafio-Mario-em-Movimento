@@ -2,7 +2,7 @@
 
 ---
 
-## Criar uma animação em CSS onde o personagem Mario se movimenta da esquerda para a direita e depois volta, de forma suave e contínua, permanecendo sempre visível na tela.
+Criar uma animação em CSS onde o personagem Mario se movimenta da esquerda para a direita e depois volta, de forma suave e contínua, permanecendo sempre visível na tela.
 
 ---
 
@@ -27,4 +27,4 @@
 !Fazer o Mario dar uma pequena pausa ao chegar nas extremidades
 !Criar uma variação onde o Mario percorre distâncias diferentes conforme o tamanho da tela
 !Capacidades Treinadas:
-### Aplicar técnicas de estilização de páginas web
+Aplicar técnicas de estilização de páginas web
