@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+}
+@keyframes walk {
+    0%{
+        left: 0;
+        transform: scaleX(1);
+    }
+    50%{
+        left: 1720px;
+        transform: scaleX(1);
+    }
+    51%{
+        transform: scaleX(-1);
+        animation-play-state: paused;
+    }
+    56%{
+        animation-play-state: running;
+    }
+    100%{
+        left: 0;
+        transform: scaleX(-1);
+    }
+}
+
+.walk{
+    position: relative;
+    animation: walk 5s linear infinite;
+}
+
+.walk:hover{
+    animation-play-state: paused;
+}
+
+img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+@media (max-width: 1024px){
+    @keyframes walk-1024 {
+        0%{
+            left: 0;
+            transform: scaleX(1);
+        }
+        50%{
+            left: 904px;
+            transform: scaleX(1);
+        }
+        51%{
+            transform: scaleX(-1);
+        }
+        100%{
+            left: 0;
+            transform: scaleX(-1);
+        }
+    }
+    .walk{
+        animation: walk-1024 5s linear infinite;
+    }
+}
